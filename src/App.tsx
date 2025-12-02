@@ -6,7 +6,6 @@ function App() {
 
   return (
     <>
-      <h1 className="text-center">Giorno-52</h1>
       <GetArticles />
     </>
   )

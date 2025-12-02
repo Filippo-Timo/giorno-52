@@ -41,7 +41,7 @@ const GetArticles = function () {
                     <h2 className="text-center">Articoli spaziali!!!</h2>
                 </Col>
             </Row>
-            <Row className="justify-content-center">
+            <Row className="justify-content-evenly">
                 {articles.map((article) => (
                     <Col xs={3} md={4}>
                         <SingleArticle articleDalleProps={article} key={article.id} />
