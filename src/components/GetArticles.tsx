@@ -43,8 +43,8 @@ const GetArticles = function () {
             </Row>
             <Row className="justify-content-evenly">
                 {articles.map((article) => (
-                    <Col xs={3} md={4}>
-                        <SingleArticle articleDalleProps={article} key={article.id} />
+                    <Col xs={3} md={4} key={article.id}>
+                        <SingleArticle articleDalleProps={article} />
                     </Col>
                 ))}
             </Row>
