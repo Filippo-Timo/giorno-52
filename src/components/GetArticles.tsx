@@ -28,9 +28,12 @@ const GetArticles = function () {
             })
     }
 
+
     useEffect(() => {
         getArticles()
     }, [])
+
+
     return (
         <></>
     )
