@@ -38,7 +38,7 @@ const GetArticles = function () {
         <Container>
             <Row className="justify-content-center">
                 <Col>
-                    <h2 className="text-center">Articoli spaziali!!!</h2>
+                    <h2 className="text-center text-light my-5 fw-bold">- - - Articoli spaziali !!! - - -</h2>
                 </Col>
             </Row>
             <Row className="justify-content-evenly">
